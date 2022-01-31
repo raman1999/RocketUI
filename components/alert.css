@@ -1,0 +1,35 @@
+.alert {
+
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    max-width: 30rem;
+    margin: 0.8rem;
+}
+.alert-primary{
+    color: var(--txtPrimary);
+    background-color: var(--bgPrimary);
+    border: 1px solid var(--txtPrimary);
+}
+.alert-success {
+    color: var(--txtSuccess);
+    background-color: var(--bgSuccess);
+    border: 1px solid var(--txtSuccess);
+}
+
+.alert-failure {
+    color: var(--txtFailure);
+    background-color: var(--bgFailure);
+    border: 1px solid var(--txtFailure);
+} 
+
+.alert-warning {
+    color: var(--txtWarning);
+    background-color: var(--bgWarning);
+}
+
+.alert-dark {
+    color: var(--txtDark);
+    background-color: var(--bgDark);
+    border: 1px solid var(--txtDark);
+}
