@@ -1,0 +1,60 @@
+.badge {
+    text-align: center;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 0.7rem;
+    margin:1rem;
+    font-weight: bold;
+}
+
+.badge-primary {
+    color: var(--txtPrimary);
+    background-color: var(--bgPrimary);
+    border: 1px solid var(--txtPrimary);
+}
+
+.badge-secondary {
+   
+    color: var(--txtSecondary);
+    background-color: var(--bgSecondary);
+    border: 1px solid var(--txtSecondary);
+}
+
+.badge-failure {
+    color: var(--txtFailure);
+    background-color: var(--bgFailure);
+    border: 1px solid var(--txtFailure);
+}
+.badge-light{
+    color: var(--txtLight);
+    background-color: var(--bgLight);
+    border: 1px solid var(--txtLight);
+}
+.badge-dark {
+    color: var(--txtDark);
+    background-color: var(--bgDark);
+}
+/* for badges with icons */
+.badge-icon {
+    border-radius: 50%;
+    padding: 0.2rem 0.3rem;
+   
+    position: relative;
+    top: -1.4rem;
+    left: -2.1rem;
+}
+/* for badges with status offline or online */
+.badge-avatar-status {
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    padding: 0.2rem 0.4rem;
+    font-size: 0.2em;
+  margin:1rem;
+    position: relative;
+    left: -2rem;
+    bottom: 0.5rem;
+}
+
+.space-around-img {
+    padding: 0.3rem;
+}
