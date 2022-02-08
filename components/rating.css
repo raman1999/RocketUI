@@ -1,0 +1,15 @@
+.rating {
+    color: var(--theme300); 
+    cursor: pointer;
+}
+
+.rating-checked {
+    color: var(--orange);
+}
+
+.rating-block {
+    font-weight: bold;
+    color: var(--grey50);
+    background-color: var(--bgLight);
+    padding: 5px;
+}
