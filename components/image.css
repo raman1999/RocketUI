@@ -1,0 +1,20 @@
+/* .img Used with square and rounded image */
+.img{
+    width:13rem;
+    height:13rem;
+    object-fit: cover;
+  }
+  .img-rd {
+    border-radius: 50%;
+  }
+  
+  .img-sq {
+    margin: 0.8rem;
+  }
+  
+  .img-res {
+     max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
