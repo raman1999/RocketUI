@@ -1,46 +1,46 @@
 /* Headings */
-.txt-header-1,
-.txt-header-2,
-.txt-header-3,
-.txt-header-4,
-.txt-header-5,
-.txt-header-center,
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-center,
 .txt-small,
 .txt-grey,
 .txt-desc {
   margin: 0.5rem 0;
 }
 
-.txt-header-1,
-.txt-header-2,
-.txt-header-3,
-.txt-header-4,
-.txt-header-5 {
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5 {
   color: var(--bgPrimary);
 }
 
 /* Font sizes */
 h1,
-.txt-header-1 {
+.heading-1 {
   font-size: 2.6rem;
 }
 
 h2,
-.txt-header-2 {
+.heading-2 {
   font-size: 2.1rem;
 }
 
 h3,
-.txt-header-3 {
+.heading-3 {
   font-size: 1.8rem;
 }
 
 h4,
-.txt-header-4 {
+.heading-4 {
   font-size: 1.4rem;
 }
 
-h5.txt-header-5 {
+h5.heading-5 {
   font-size: 1.1rem;
 }
 .txt-small {

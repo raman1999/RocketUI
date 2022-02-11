@@ -1,0 +1,62 @@
+@import url("/stylesheets/components.css");
+
+section {
+  padding: 0 1.1rem;
+}
+.sec-introduction {
+  justify-content: space-between;
+  align-items: center;
+}
+.home-image {
+  height: 60vh;
+  width: 100%;
+}
+
+.sec-installation {
+  padding: 1.2rem;
+}
+
+.txt-desc {
+  color: var(--grey50);
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.link {
+  width: max-content;
+}
+#main-list > .list-item > a:hover {
+  font-size: 1.1rem;
+}
+
+/* footer part */
+.footer {
+  background-color: var(--theme100);
+
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+.footer a {
+  color: var(--theme700);
+}
+
+.fab {
+  padding: 0 0.6rem;
+}
+
+/* Media screens */
+@media screen and (min-width: 768px) {
+  .sec-introduction {
+    flex-direction: row;
+    padding: 1.1rem;
+  }
+
+  .home-image {
+    width: 40%;
+  }
+
+  .intro-container {
+    padding: 0 1rem;
+  }
+}
