@@ -7,7 +7,7 @@ section {
   justify-content: space-between;
   align-items: center;
 }
-.logo-image {
+.home-image {
   height: 60vh;
   width: 100%;
 }
@@ -25,7 +25,7 @@ section {
 .link {
   width: max-content;
 }
-#list-nav-main > .list-item > a:hover {
+#main-list > .list-item > a:hover {
   font-size: 1.1rem;
 }
 
@@ -52,7 +52,7 @@ section {
     padding: 1.1rem;
   }
 
-  .logo-image {
+  .home-image {
     width: 40%;
   }
 
