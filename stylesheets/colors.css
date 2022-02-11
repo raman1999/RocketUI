@@ -1,0 +1,39 @@
+:root {
+  --white: white;
+  --black: black;
+  --orange: orange;
+  --grey: #888;
+  --grey100: rgb(100, 100, 100);
+  --grey50: rgb(50, 50, 50);
+  /* theme shades for site */
+  --theme900: #1e3a8a;
+  --theme800: #2b4ab1;
+  --theme700: #0c65a6;
+  --theme600: #4390c7;
+  --theme500: #3b82f6;
+  --theme400: #60a5fa;
+  --theme300: #93c5fd;
+  --theme200: #bfdbfe;
+  --theme100: #dbeafe;
+  --theme50: #eff6ff;
+
+  --txtPrimary: #f6eed6;
+  --bgPrimary: var(--theme900);
+
+  --txtSecondary: #c34b3a;
+  --bgSecondary: #f6eed6;
+
+  --txtSuccess: #ecfdf5;
+  --bgSuccess: #2e6656;
+
+  --txtFailure: rgb(253, 224, 224);
+  --bgFailure: rgb(187, 49, 44);
+
+  --txtLight: rgb(5, 5, 5);
+  --bgLight: rgb(200, 200, 200);
+
+  --txtDark: rgb(234, 234, 234);
+  --bgDark: rgb(47, 47, 47);
+  --bgWarning: #e2ba19;
+  --txtWarning: #ecfdf5;
+}

@@ -1,0 +1,73 @@
+.bg-Primary {
+  background-color: var(--bgPrimary);
+}
+
+.primaryBg-txt {
+  color: var(--bgPrimary);
+}
+
+.txt-Primary {
+  color: var(--txtPrimary);
+}
+.bg-txtSecondary {
+  background-color: var(--txtSecondary);
+}
+.bg-Secondary {
+  background-color: var(--bgSecondary);
+}
+
+.txt-Secondary {
+  color: var(--txtSecondary);
+}
+
+.bg-Success {
+  background-color: var(--bgSuccess);
+}
+
+.txt-Success {
+  color: var(--txtSuccess);
+}
+.txt-bgFailure {
+  color: var(--bgFailure);
+}
+
+.failure-bg {
+  background-color: var(--bgFailure);
+}
+
+.failure-txt {
+  color: var(--txtFailure);
+}
+
+.light-bg {
+  background-color: var(--bgLight);
+}
+
+.light-txt {
+  color: var(--txtLight);
+}
+
+.bg-Dark {
+  background-color: var(--bgDark);
+}
+.txt-bgDark {
+  color: var(--bgDark);
+}
+.txt-Dark {
+  color: var(--txtDark);
+}
+
+.padding-box {
+  padding: 1rem;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
