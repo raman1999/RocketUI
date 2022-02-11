@@ -1,0 +1,70 @@
+/* Headings */
+.txt-header-1,
+.txt-header-2,
+.txt-header-3,
+.txt-header-4,
+.txt-header-5,
+.txt-header-center,
+.txt-small,
+.txt-grey,
+.txt-desc {
+  margin: 0.5rem 0;
+}
+
+.txt-header-1,
+.txt-header-2,
+.txt-header-3,
+.txt-header-4,
+.txt-header-5 {
+  color: var(--bgPrimary);
+}
+
+/* Font sizes */
+h1,
+.txt-header-1 {
+  font-size: 2.6rem;
+}
+
+h2,
+.txt-header-2 {
+  font-size: 2.1rem;
+}
+
+h3,
+.txt-header-3 {
+  font-size: 1.8rem;
+}
+
+h4,
+.txt-header-4 {
+  font-size: 1.4rem;
+}
+
+h5.txt-header-5 {
+  font-size: 1.1rem;
+}
+.txt-small {
+  font-size: 0.9rem;
+}
+
+.txt-big {
+  font-size: 1.5rem;
+}
+
+/* Text utilities */
+.txt-grey {
+  color: var(--grey);
+}
+
+.txt-center {
+  text-align: center;
+}
+.txt-right {
+  text-align: right;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-bold {
+  font-weight: bold;
+}
