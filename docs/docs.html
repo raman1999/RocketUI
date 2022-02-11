@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/rocket1.png" type="image/png" />
+    <link rel="stylesheet" href="/stylesheets/components.css" />
+    <link rel="stylesheet" href="/stylesheets/docs.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <title>Rocket UI</title>
+</head>
+
+<body>
+    <div class="grid-box">
+        <!-- Navigation bar -->
+        <nav id="navigation" class="nav">
+            <a href="/index.html" class="nav-logo link">
+                <img class="img-rd" src="/assets/rocket1.png" alt="logo" />
+                <span class="nav-header">Rocket UI</span>
+            </a>
+            <div class="connect-box">
+                <a class="connect-link" target="_blank" rel="noreferrer noopeneer" href="https://github.com/raman1999">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+                <a class="connect-link" target="_blank" rel="noreferrer noopeneer"
+                    href="https://www.linkedin.com/in/raman-joshi-01325b168/">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+            </div>
+
+            <span id="btn-hamburger" class="nav-btn"><i class="fas fa-bars fa-lg"></i></span>
+        </nav>
+        
+        <!-- Sidebar for components-->
+        <aside class="sidebar">
+            <ul id="main-list" class="nav-list nav-list-hide">
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-start">Get Started</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-avatar">Avatar</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-alert">Alert</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-badge">Badge</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-button">Button</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-card">Card</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-image">Image</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-input">Input</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-text-utilities">Text Utilities</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-list">List</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-navigation">Navigation</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-modal">Modal</a>
+                </li>
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-rating">Rating</a>
+                </li>
+
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-grid">Grid</a>
+                </li>
+
+                <li class="list-item">
+                    <a class="btn-link" href="#sec-toast">Toast</a>
+                </li>
+
+            </ul>
+        </aside>
+        <div class="main-content-box">
+
+            <!-- Installation part -->
+            <section id="sec-start">
+                <h2 class="heading-2">Get Started</h2>
+
+                <p class="txt-desc">
+                    In order to introduce Rocket UI to your project and use ready-made classes, Copy the following
+                    css link
+                </p>
+                <p class="text-desc">
+                    and the javascript link to your project and you are good to go.
+                </p>
+                <br />
+                <h3 class="heading-3">CSS</h3>
+                <p class="txt-desc">Copy and paste the stylesheet &lt;link&gt; to the head tag of your html document or
+                    import url on top of your main css file.</p>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/tB4HGSj3dR5SEnCAXp5F"
+                        style="width: 681px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3 class="heading-3">Javascript</h3>
+                <p class="txt-desc">Copy and paste the below &lt;script&gt; tag before the closing body tag of your main
+                    document.</p>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/TiO1CO7fEDEUhiXCystk"
+                        style="width: 563px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Avatar  component-->
+            <section id="sec-avatar">
+                <h2 class="heading-2">Avatar</h2>
+                <!-- Round Avatar -->
+                <h3>Round</h3>
+                <img src="https://picsum.photos/id/1003/200/300" alt="avatar" class="avatar-round-sm" />
+                <img src="https://picsum.photos/id/1003/200/300" alt="avatar" class="avatar-round-md" />
+                <img src="https://picsum.photos/id/1003/200/300" alt="avatar" class="avatar-round-lg" />
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/WWNFAnFYfGCOyDWL9PJa" style="
+                width: 454px;
+                height: 335px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Square Avatar -->
+                <h3>Square</h3>
+                <img src="https://picsum.photos/id/237/200" alt="avatar" class="avatar-sq-sm" />
+                <img src="https://picsum.photos/id/237/200" alt="avatar" class="avatar-sq-md" />
+                <img src="https://picsum.photos/id/237/200" alt="avatar" class="avatar-sq-lg" />
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/5jbUcisv3FNjx74V0quQ" style="
+                width: 446px;
+                height: 335px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Text avatar -->
+                <h3>Text</h3>
+                <div class="flex-box">
+                    <span class="avatar-txt avatar-round-sm bg-Primary txt-Primary">Text</span>
+                    <span class="avatar-txt avatar-round-md bg-Dark txt-Dark">Text</span>
+                    <span class="avatar-txt avatar-sq-lg bg-Success txt-Success">Text</span>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/F75lcx1bgpGgcsShA8m8" style="
+                width: 698px;
+                height: 335px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Alert component -->
+            <section id="sec-alert">
+                <h2 class="heading-2">Alert</h2>
+                <!-- Primary Alert -->
+                <div class="alert alert-primary">Primary alert</div>
+                <!-- Success Alert -->
+                <div class="alert alert-success">
+                    <i class="far fa-check-circle"></i> Sucess alert
+                </div>
+                <!-- Failure Alert -->
+                <div class="alert alert-failure">
+                    <i class="fas fa-exclamation-triangle"></i> Failure alert
+                </div>
+                <!-- Warning Alert -->
+                <div class="alert alert-warning"><b>Warning</b> alert</div>
+                <!-- Dark Alert -->
+                <div class="alert alert-dark">
+                    <i class="fas fa-moon"></i> Dark alert
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/dS6ne29KgUeJy1aLWqtQ" style="
+                width: 546px;
+                height: 589px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Badge component-->
+            <section id="sec-badge">
+                <div class="flex-box">
+                    <h2 class="heading-2">Badge</h2>
+
+                    <!-- Primary Badge -->
+                    <span class="badge badge-primary">Primary</span>
+                    <!-- Secondary Badge -->
+                    <span class="badge badge-secondary">Secondary</span>
+                    <!-- Failure Badge -->
+                    <span class="badge badge-failure">Failure</span>
+                    <!-- Ḍark  Badge -->
+                    <span class="badge badge-dark">Dark</span>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/nUFTkNO7mkYUL6PpZrjW" style="
+                width: 588px;
+                height: 335px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Badge on Icon</h3>
+                <div class="padding-box">
+                    <!-- Different icons -->
+                    <i class="fas fa-home fa-2x primaryBg-txt"></i>
+                    <span class="badge badge-secondary badge-icon">25</span>
+                    <i class="fas fa-bell fa-2x txt-Secondary"></i>
+
+                    <span class="badge badge-light badge-icon">7+</span>
+                    <i class="fas fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                    <span class="badge badge-primary badge-icon">8</span>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/CBm1eMkaH2lYbA5GnRbL" style="
+                width: 631px;
+                height: 391px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Badge on Avatar</h3>
+                <!-- Different avatar badges -->
+                <span class="padding-box">
+                    <img src="https://picsum.photos/id/237/200/300" alt="avatar"
+                        class="avatar-sq-md space-around-img failure-bg" />
+                </span>
+                <span class="padding-box">
+                    <img src="https://picsum.photos/id/237/200/300" alt="avatar"
+                        class="avatar-sq-md space-around-img bg-Success" />
+                </span>
+                <span class="padding-box">
+                    <img src="https://picsum.photos/id/237/200/300" alt="avatar" class="avatar-round-md" />
+                    <span class="badge badge-avatar-status bg-Success"></span>
+
+                    <img src="https://picsum.photos/id/237/200/300" alt="avatar" class="avatar-round-md" />
+                    <span class="badge badge-avatar-status failure-bg"></span>
+                </span>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/zgI3FIGSvKXfITWBxTie" style="
+                width: 741px;
+                height: 726px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Button component-->
+            <section id="sec-button">
+                <h2 class="heading-2">Button</h2>
+
+                <!-- Primary Button -->
+                <button type="button" class="btn btn-primary">Primary</button>
+                <!-- Secondary Button -->
+                <button type="button" class="btn btn-secondary">Secondary</button>
+
+                <!-- Warning Button -->
+                <button type="button" class="btn btn-warning">Warning</button>
+
+                <!-- Light Button -->
+                <button type="button" class="btn btn-light">Light</button>
+                <!-- Dark Button -->
+                <button type="button" class="btn btn-dark">Dark</button>
+                <!-- Button Disabeled -->
+                <button type="button" class="btn" disabled>Disabled</button>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/Idrr4dXkMXRZU7eBzxpL" style="
+                width: 714px;
+                height: 410px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Link</h3>
+                <!-- Different Links -->
+                <a href="#" class="btn btn-link">Link</a>
+                <a href="#" class="btn btn-box-link">Link 2</a>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/FS6HDvPVZQIdXSq5zG18" style="
+                width: 572px;
+                height: 223px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Icon button</h3>
+                <button type="button" class="btn btn-dark">
+                    <i class="fas fa-search fa-lg"></i>
+                </button>
+                <button type="button" class="btn btn-secondary">
+                    <i class="fas fa-trash fa-lg"></i>
+                </button>
+
+                <button type="button" class="btn btn-primary">
+                    <i class="fas fa-shopping-cart fa-lg"></i>
+                </button>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/bhgSHFXKJtPvQm5XeqMh" style="
+                width: 554px;
+                height: 391px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Floating Action Button</h3>
+
+                <button type="button" class="btn btn-primary btn-round">
+                    <i class="fas fa-plus"></i>
+                </button>
+                <button type="button" class="btn txt-Primary bg-txtSecondary btn-round">
+                    <i class="fas fa-minus fa-lg"></i>
+                </button>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/HqoMAOsHNnI0uZa5ml6w" style="
+                width: 758px;
+                height: 316px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Card component -->
+            <section id="sec-card">
+                <h2 class="heading-2">Card</h2>
+                <!-- Vertical card -->
+                <h3>Vertical Card</h3>
+                <div class="card">
+                    <img class="card-img" alt="card-image" src="https://picsum.photos/id/177/200/200" />
+                    <h3 class="card-heading">Travelling</h3>
+                    <p class="card-desc">
+                        Sometimes to explore our inner person, one should do solo
+                        travelling and explore nature around us. This helps in achieving
+                        greater peace of mind and better health.
+                    </p>
+                    <button type="button" class="btn btn-dark">Read More</button>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/6eDNhZSYPp1y0eKZrLrt"
+                        style="width: 732px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h3>Card with shadow</h3>
+                <!-- shadow card -->
+                <div class="card card-shadow">
+                    <img class="card-img" alt="card-image" src="https://picsum.photos/id/177/200/200" />
+                    <h3 class="card-heading">Travelling</h3>
+                    <p class="card-desc">
+                        Sometimes to explore our inner person, one should do solo
+                        travelling and explore nature around us. This helps in achieving
+                        greater peace of mind and better health.
+                    </p>
+                    <button type="button" class="btn btn-dark">Read More</button>
+                </div>
+
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/vTXOAJN4a97qa1y3eZIf"
+                        style="width: 816px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h3>Card with badge</h3>
+                <!-- card with badge -->
+                <div class="card">
+                    <img class="card-img" alt="card-image"
+                        src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" />
+                    <h3 class="card-heading">Apple Airpods</h3>
+                    <span class="card-desc">Airpods 3rd Generation</span><br />
+                    <b class="card-price">₹ 1499/-</b>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                    <span class="badge badge-primary card-badge">New</span>
+                </div>
+
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/JpgBDRW0gMuJH6vNIEPa"
+                        style="width: 690px; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h3>Card with dismiss & overlay text</h3>
+                <!-- card with dismiss -->
+                <div class="card">
+                    <img class="card-img" alt="card-image" src="https://picsum.photos/id/196/200/300" />
+                    <h3 class="card-heading">Desert</h3>
+                    <p class="card-desc">
+                        A desert is a barren area of landscape where little
+                        precipitation occurs and, consequently, living conditions are
+                        hostile for plant and animal life. The lack of vegetation
+                        exposes the unprotected surface of the ground to the processes
+                        of denudation.
+                    </p>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                    <button type="button" class="btn btn-secondary btn-dismiss">
+                        x
+                    </button>
+                    <small class="txt-overlay">Thar Desert Photography</small>
+                </div>
+
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/SnKFdADDKmkxeDJ5KAyk"
+                        style="width: 673px; height: 447px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h3>Horizontal Card</h3>
+                <!-- Horizontal card -->
+                <div class="card-horizontal">
+                    <img class="card-img" alt="card-image" src="https://picsum.photos/id/476/200/300" />
+                    <div>
+                        <h3 class="card-heading">Nature</h3>
+                        <p class="card-desc">
+                            Nature is the natural, physical, material world or universe.
+                            humans are part of nature, human activity is often understood
+                            as a separate category from other natural phenomena.
+                        </p>
+                        <button type="button" class="btn btn-dark">Read More</button>
+                    </div>
+                </div>
+
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/rXYa6xB5gJtxWvKm3Kil"
+                        style="width: 563px; height: 428px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h3>Text only card</h3>
+                <!-- text card -->
+                <div class="card">
+                    <h3>Boxing</h3>
+                    <p class="card-desc">
+                        Boxing is a combat sport in which two people, usually wearing
+                        protective gloves and other protective equipment such as hand
+                        wraps and mouthguards, throw punches at each other for a
+                        predetermined amount of time in a boxing ring.Some well known
+                        boxing legends are Muhammad Ali and Mike Tyson.
+                    </p>
+                </div>
+
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/dG8qOcLi7ZWOzvQ7dL9I"
+                        style="width: 513px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Image component-->
+            <section id="sec-image">
+                <h2 class="heading-2">Image</h2>
+                <!-- Square Image -->
+                <h3>Square Image</h3>
+
+                <img src="https://picsum.photos/id/1000/300/300" alt="square" class="img img-sq" />
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/5eoYZRGmwTtN5CxKNQYZ"
+                        style="width: 428px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Round image -->
+                <h3>Round Image</h3>
+                <img src="https://picsum.photos/id/1005/200/300" alt="round" class="img img-rd" />
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/KydpYAQU62zl3KTZId2P"
+                        style="width: 420px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Responsive image -->
+                <h3>Responsive Image</h3>
+                <div class="res-box">
+                    <img src="http://placeimg.com/600/500/nature" alt="responsive" class="img-res" />
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/dNDTcXxuk2YrGWw9xP8g"
+                        style="width: 470px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Input component -->
+            <section id="sec-input">
+                <h2 class="heading-2">Input</h2>
+
+                <h3>Input Fields</h3>
+                <!-- Email field -->
+                <div class="txt-box">
+                    <span class="txt-icon txt-bgDark"><i class="fas fa-envelope fa-lg"></i></span>
+                    <input class="txt-input" type="text" placeholder="Enter your email" />
+                </div>
+                <!-- Search field -->
+                <div class="txt-box">
+                    <input class="txt-input" type="text" placeholder="Search" />
+                    <span class="txt-icon bg-Primary"><i class="fas fa-search fa-lg"></i></span>
+                </div>
+
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/2iSkYOZ78RO4r7Wj8Dhh"
+                        style="width: 824px; height: 391px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- error input -->
+                <h3>Input box with wrong password</h3>
+                <div class="flex-column">
+                    <label class="txt-bgFailure">Password *</label>
+                    <input type="text" class="err-input" />
+                    <div class="txt-bgFailure">Wrong Password. Try again.</div>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/K1uEfaC9juqm9O66UUhl"
+                        style="width: 563px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-- Radio input -->
+                <h3>Radio button</h3>
+                <div class="radio-container flex-box">
+                    <input type="radio" class="radio" id="check-radio" name="radio-btn" checked />
+                    <label class="label" for="check-radio">Checked Radio</label>
+                    <input type="radio" class="radio" id="uncheck-radio" name="radio-btn" />
+                    <label class="label" for="uncheck-radio">Unchecked Radio</label>
+                    <input type="radio" class="radio" id="dis" name="radio-btn" disabled />
+                    <label class="label disabled" for="dis">Disable</label>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/GZZBEOm3QW9mpb92VXwq"
+                        style="width: 614px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Checkbox -->
+                <h3>Checkbox</h3>
+                <div class="checkbox-container flex-box">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked />
+                    <label class="label" for="vehicle1"> Checked</label><br />
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+                    <label class="label" for="vehicle2"> Unchecked</label><br />
+                    <input type="checkbox" id="disable" name="vehicle3" value="Boat" disabled />
+                    <label class="label disabled" for="disable"> Disable</label><br />
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/xqP3lqCZmW23Wru7kdg4"
+                        style="width: 807px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Textarea -->
+                <h3>Textarea</h3>
+                <textarea class="txt-input txt-area" placeholder="Write here"></textarea>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/FpqZIXldOe78VzJpLwbU"
+                        style="width: 462px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Text Utilities component -->
+            <section id="sec-text-utilities">
+                <h2 class="heading-2">Text Utilities</h2>
+                <!-- Headings -->
+                <h2>Headings</h2>
+                <h1 class="heading-1">H1-Heading</h1>
+                <h1 class="heading-2">H2-Heading</h1>
+                <h1 class="heading-3">H3-Heading</h1>
+                <h4 class="heading-4">H4-Heading</h4>
+                <h5 class="heading-5">H5-Heading</h5>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/nvAfSSOW4CdOpadDgOpd"
+                        style="width: 487px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Small text -->
+                <h2>Small text</h2>
+                <p class="txt-small">Small text paragraph</p>
+
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/jB5WaU6lrAPHWI6Bac7I"
+                        style="width: 530px; height: 205px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Grey text -->
+                <h2>Grey text</h2>
+                <p class="txt-grey">This is grey text.</p>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/vXqhQCCELTQCdxIDZ7aA"
+                        style="width: 504px; height: 205px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- center -->
+                <h2>Center text</h2>
+                <div class="txt-center">
+                    <h2 class="heading-2">This is centered Heading</h2>
+                    <p class="txt-desc">
+                        Boxing is a combat sport in which two people, usually wearing
+                        protective gloves and other protective equipment such as hand
+                        wraps and mouthguards, throw punches at each other for a
+                        predetermined amount of time in a boxing ring.
+                    </p>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/tZi6kdFbSqIA7bwJyUqn"
+                        style="width: 622px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- List component -->
+            <section id="sec-list">
+                <h2 class="heading-2">List</h2>
+                <!-- normal -->
+                <h3>Normal List</h3>
+                <ul class="list-normal">
+                    <h5 class="heading-5">Select Category</h5>
+                    <hr />
+                    <li class="list-item list-item-active">Tshirts</li>
+                    <li class="list-item">Trackpants</li>
+                    <li class="list-item">Watches</li>
+                    <li class="list-item">Jeans</li>
+                    <li class="list-item">Shirts</li>
+                </ul>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/60TDIwZAhjcJcpaV28op"
+                        style="width: 597px; height: 391px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- inline -->
+                <h3>Inline list</h3>
+                <ul class="list-inline">
+                    <li class="list-item">HOME</li>
+                    <li class="list-item list-item-active">DOCS</li>
+                    <li class="list-item">GITHUB</li>
+                </ul>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/AmyZ7BUsFCG54zuaUvg7"
+                        style="width: 571px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- stacked -->
+                <h3>Stacked list</h3>
+                <ul class="list-stacked">
+                    <li class="list-item">List Item 1</li>
+                    <li class="list-item">List Item 1</li>
+                    <li class="list-item">List Item 2</li>
+                    <li class="list-item">List Item 3</li>
+                    <li class="list-item">List Item 4</li>
+                    <li class="list-item">List Item 5</li>
+                </ul>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/EyFijSdBouVaCOWv4NHT"
+                        style="width: 487px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+            </section>
+
+            <!-- Navigation component-->
+            <section id="sec-navigation">
+                <h2 class="heading-2">Navigation</h2>
+                <nav class="nav">
+                    <div class="nav-logo">
+                        <span class="nav-header primaryBg-txt">Rocket UI</span>
+                    </div>
+                    <span id="btn-nav" class="nav-btn"><i class="fas fa-chevron-circle-down fa-lg"></i></span>
+                    <ul id="list-nav" class="nav-list nav-list-hide">
+                        <li class="list-item primaryBg-txt txt-bold">HOME</li>
+                        <li class="list-item list-item-active txt-bold">DOCS</li>
+                        <li class="list-item primaryBg-txt txt-bold">GITHUB</li>
+                    </ul>
+                </nav>
+
+
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/nnCiHuPEs9Pnvm7p1auc"
+                        style="width: 665px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </section>
+            <!-- Modal -->
+            <section id="sec-modal">
+                <h2 class="heading-2">Modal</h2>
+                <br />
+                <button id="btn-modal" class="btn btn-dark">Start Test</button>
+                <!-- modal box -->
+                <div class="modal-container">
+                    <div class="card modal-content">
+                        <h3 class="modal-header">Rules</h3>
+                        <hr />
+                        <p class="modal-desc">
+                            Please read the instructions carefully. This is a 30 minutes
+                            quiz. Each question carries 5 marks and -1 for wrong answer. Do
+                            not switch the window.
+                        </p>
+                        <button type="button" id="btn-close-modal" class="btn btn-secondary btn-dismiss">
+                            x
+                        </button>
+                    </div>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/gjCY5lr2Zkky9CHAGJ7t"
+                        style="width: 799px; height: 502px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Rating component-->
+            <section id="sec-rating">
+                <h2 class="heading-2">Rating</h2>
+
+                <h3>Read Only Rating</h3>
+                <div class="rating">
+                    <i class="fa fa-star fa-lg rating-checked"></i>
+                    <i class="fa fa-star fa-lg rating-checked"></i>
+                    <i class="fa fa-star fa-lg rating-checked"></i>
+                    <i class="fa fa-star fa-lg rating-checked"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/hOCKo2PCAjvofFyoGut9"
+                        style="width: 563px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Numbered rating -->
+                <h3>Numbered Rating</h3>
+                <div class="rating">
+                    <span class="rating-block">4.5
+                        <i class="fa fa-star fa-md rating-checked"></i>
+                    </span>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/rPeG9vC7NxEkawEETT8n"
+                        style="width: 580px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Output rating -->
+                <h3>Rate our Service</h3>
+                <div class="rating">
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/OUrFQTbZck93kIVeBqQF"
+                        style="width: 437px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+            </section>
+
+            <!-- Grid component-->
+            <section id="sec-grid">
+                <h2 class="heading-2">Simplified Grid</h2>
+                <!-- Two items in grid -->
+                <h3>Two Items</h3>
+                <div class="grid-two">
+                    <div class="card">
+                        <img class="card-img" alt="card-image" src="https://picsum.photos/id/177/200/200" />
+                        <h3 class="card-heading">Travelling</h3>
+                        <p class="card-desc">
+                            Sometimes to explore our inner person, one should do solo
+                            travelling and explore nature around us. This helps in achieving
+                            greater peace of mind and better health.
+                        </p>
+                        <button type="button" class="btn btn-dark">Read More</button>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" alt="card-image" src="https://picsum.photos/id/177/200/200" />
+                        <h3 class="card-heading">Travelling</h3>
+                        <p class="card-desc">
+                            Sometimes to explore our inner person, one should do solo
+                            travelling and explore nature around us. This helps in achieving
+                            greater peace of mind and better health.
+                        </p>
+                        <button type="button" class="btn btn-dark">Read More</button>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" alt="card-image" src="https://picsum.photos/id/177/200/200" />
+                        <h3 class="card-heading">Travelling</h3>
+                        <p class="card-desc">
+                            Sometimes to explore our inner person, one should do solo
+                            travelling and explore nature around us. This helps in achieving
+                            greater peace of mind and better health.
+                        </p>
+                        <button type="button" class="btn btn-dark">Read More</button>
+                    </div>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/tRnHBQAFiXTDvk9211HG"
+                        style="width: 454px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Three items in grid -->
+                <h3>Three Items</h3>
+                <div class="grid-three">
+                    <div class="card">
+                        <img class="card-img" alt="card-image"
+                            src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" />
+                        <h3 class="card-heading">Apple Airpods</h3>
+                        <span class="card-desc">Airpods 3rd Generation</span><br />
+                        <b class="card-price">₹ 1499/-</b>
+                        <button type="button" class="btn btn-primary">Buy Now</button>
+                        <span class="badge badge-primary card-badge">New</span>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" alt="card-image"
+                            src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" />
+                        <h3 class="card-heading">Apple Airpods</h3>
+                        <span class="card-desc">Airpods 3rd Generation</span><br />
+                        <b class="card-price">₹ 1499/-</b>
+                        <button type="button" class="btn btn-primary">Buy Now</button>
+                        <span class="badge badge-primary card-badge">New</span>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" alt="card-image"
+                            src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" />
+                        <h3 class="card-heading">Apple Airpods</h3>
+                        <span class="card-desc">Airpods 3rd Generation</span><br />
+                        <b class="card-price">₹ 1499/-</b>
+                        <button type="button" class="btn btn-primary">Buy Now</button>
+                        <span class="badge badge-primary card-badge">New</span>
+                    </div>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/TFNU6fEKclQ4xnvlKAUV"
+                        style="width: 454px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Toast -->
+            <section id="sec-toast">
+                <h2 class="heading-2">Toast</h2>
+                <button id="btn-toast" class="btn btn-primary">See Toast</button>
+                <!-- Toast container -->
+                <div class="toast-container">
+                    <h3 class="toast-header">
+                        Your item has been succesfully delivered
+                    </h3>
+                    <button id="btn-close-toast" type="button" class="btn btn-secondary btn-dismiss">
+                        x
+                    </button>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://carbon.now.sh/embed/MuAY6PQiMrqsAsAg37bf"
+                        style="width: 758px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+
+        </div>
+        <!-- Go to top  -->
+        <a class="go-to-top" href="#">
+            <button type="button" class="btn btn-dark">
+                <i class="fas fa-chevron-up txt-Primary"></i>
+            </button>
+        </a>
+    </div>
+    <script type="text/javascript" src="/js/script.js"></script>
+
+</body>
+
+</html>
