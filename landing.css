@@ -17,7 +17,6 @@ section {
 }
 
 .txt-desc {
-  color: var(--grey50);
   line-height: 1.5;
   word-wrap: break-word;
 }
@@ -32,7 +31,6 @@ section {
 /* footer part */
 .footer {
   background-color: var(--theme100);
-
   justify-content: center;
   align-items: center;
   height: 15vh;
@@ -40,10 +38,28 @@ section {
 .footer a {
   color: var(--theme700);
 }
-
 .fab {
   padding: 0 0.6rem;
 }
+
+/* Dark mode features */
+.dark-mode{
+  background-color: var(--darkMode) ;
+  color:var(--white);
+}
+.dark-mode-btn-landing{
+  position:fixed;
+  bottom:10%;
+  right:2%;
+  padding: 1rem;
+  background-color: var(--bgDark);
+  color:var(--white);
+  border-radius: 50%;
+}
+.dark-mode-img{
+  filter: invert(95%);
+}
+
 
 /* Media screens */
 @media screen and (min-width: 768px) {

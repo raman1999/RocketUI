@@ -42,6 +42,7 @@ section {
   color: var(--grey100);
   padding: 0.7rem;
 }
+
 #main-list > .list-item > a:hover {
   background-color: var(--lightBg);
   color: var(--txtSecondary);
@@ -79,7 +80,37 @@ section {
 .go-to-top {
   position: fixed;
   bottom: 3%;
-  right: 3%;
+  right: 3.2%;
+}
+
+/* dark mode feature */
+.dark-mode {
+  background-color: var(--darkMode);
+  color: var(--white);
+}
+.dark-filter {
+  filter: invert(100%);
+}
+.dark-mode-btn {
+  position: fixed;
+  bottom: 13%;
+  right: 3.2%;
+  padding: 0.9rem;
+  background-color: var(--bgDark);
+  color: var(--white);
+  border-radius: 50%;
+}
+.dark-iframe {
+  filter: invert(90%);
+}
+#main-list > .list-item > .white {
+  color: var(--white);
+}
+
+/*card features in dark mode */
+.card-heading,
+.card-desc {
+  color: var(--black);
 }
 
 /* body scrollbar */
@@ -138,7 +169,6 @@ body::-webkit-scrollbar-thumb:hover {
     left: 3%;
     width: max-content;
     margin: 1.1rem;
-    background-color: var(--theme50);
     height: calc(100vh - 9rem);
   }
 
@@ -146,5 +176,10 @@ body::-webkit-scrollbar-thumb:hover {
     display: block;
     border: none;
     padding: 0.6rem 3.7rem;
+  }
+  /* dark mode btn position */
+  .dark-mode-btn {
+    bottom: 5.5%;
+    right: 0.8%;
   }
 }

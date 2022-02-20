@@ -36,4 +36,6 @@
   --bgDark: rgb(47, 47, 47);
   --bgWarning: #e2ba19;
   --txtWarning: #ecfdf5;
+  /* dark mode color */
+  --darkMode:rgb(30,30,30);
 }
