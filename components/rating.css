@@ -1,15 +1,15 @@
 .rating {
-    color: var(--theme300); 
-    cursor: pointer;
-}
-
-.rating-checked {
-    color: var(--orange);
+  color: var(--theme-shade-3);
+  cursor: pointer;
 }
 
 .rating-block {
-    font-weight: bold;
-    color: var(--grey50);
-    background-color: var(--bgLight);
-    padding: 5px;
+  background-color: var(--bgLight);
+  font-weight: bold;
+  color: var(--grey50);
+  padding: 5px;
+}
+
+.rating-checked {
+  color: var(--orange);
 }
