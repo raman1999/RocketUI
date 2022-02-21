@@ -138,7 +138,7 @@ else {
       footer.style.color = "white"
     }
     else {
-      footer.style.backgroundColor = "var(--theme100)"
+      footer.style.backgroundColor = "var(--theme-shade-1)"
       footer.style.color = "black"
     }
     // landing page footer links toggle
