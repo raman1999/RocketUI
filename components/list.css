@@ -1,7 +1,7 @@
 .list-normal,
 .list-stacked,
 .list-inline {
-  max-width: 30rem;
+  max-width: 31rem;
   list-style-type: none;
   color: var(--bgPrimary);
 }
@@ -13,8 +13,8 @@
 }
 
 .list-item:hover {
-  background-color: var(--txtPrimary);
   color: var(--txtSecondary);
+  background-color: var(--txtPrimary);
   cursor: pointer;
 }
 /* For normal list items */
@@ -31,7 +31,7 @@
 .list-stacked > li {
   padding: 1rem;
   margin: 2px;
-  border: 1px solid var(--theme300);
+  border: 1px solid var(--theme-shade-3);
 }
 .list-item-active {
   color: var(--txtSecondary);

@@ -1,69 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Rowdies&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Rowdies&display=swap");
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-height: 3.5rem;
-    padding: 3px 1rem;
-    border: 2px solid var(--bgLight);
-    background-color: var(--theme50);
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+  width: 100%;
+  max-height: 3.6rem;
+  padding: 3px 1rem;
+  border: 2px solid var(--bgLight);
+  background-color: var(--theme-shade-0);
+  border-bottom-right-radius: 1.1rem;
+  border-bottom-left-radius: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /* For image used with nav logo */
-.nav-logo>img {
-    height: 2.5rem;
-    width: auto;
+.nav-logo > img {
+  width: auto;
+  height: 2.4rem;
 }
 
 .nav-header {
-    font-size: 1.5em;
-    vertical-align: 35%;
-  font-family: 'Rowdies', cursive;
+  vertical-align: 35%;
+  font-family: "Rowdies", cursive;
+  font-size: 1.6em;
 }
 /* circle down button to show in small size screen */
 .nav-btn {
-    display: none;
+  display: none;
 }
 
-.nav-list>li {
-    display: inline;
+.nav-list > li {
+  display: inline;
 }
 
 @media screen and (max-width: 768px) {
-    .nav {
-        display: block;
-        position: relative;
-    }
+  .nav {
+    display: block;
+    position: relative;
+  }
 
-    .nav-btn {
-        display: block;
-        position: absolute;
-        top: 30%;
-        right: 2%;
-    }
+  .nav-list {
+    display: block;
+    background-color: var(--theme-shade-0);
+    width: 100%;
+    z-index: 1;
+    padding: 3px;
+  }
 
-    .nav-btn>i {
-        color: var(--bgPrimary);
-        cursor: pointer;
-    }
+  .nav-list > li {
+    display: block;
+    border-bottom: 1px solid var(--grey);
+  }
 
-    .nav-list {
-        display: block;
-        background-color: var(--theme50);
-        width: 100%;
-        z-index: 1;
-        padding: 0.2rem;
-    }
+  .nav-list-hide {
+    display: none;
+  }
 
-    .nav-list>li {
-        display: block;
-        border-bottom:1px solid var(--grey);
-    }
-
-    .nav-list-hide {
-        display: none;
-    }
+  .nav-btn {
+    display: block;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+  }
+  .nav-btn > i {
+    color: var(--bgPrimary);
+    cursor: pointer;
+  }
 }

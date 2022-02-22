@@ -6,20 +6,19 @@
   --grey100: rgb(100, 100, 100);
   --grey50: rgb(50, 50, 50);
   /* theme shades for site */
-  --theme900: #1e3a8a;
-  --theme800: #2b4ab1;
-  --theme700: #0c65a6;
-  --theme600: #4390c7;
-  --theme500: #3b82f6;
-  --theme400: #60a5fa;
-  --theme300: #93c5fd;
-  --theme200: #bfdbfe;
-  --theme100: #dbeafe;
-  --theme50: #eff6ff;
-
+  --theme-shade-0: #eff6ff;
+  --theme-shade-1: #dbeafe;
+  --theme-shade-2: #bfdbfe;
+  --theme-shade-3: #93c5fd;
+  --theme-shade-4: #60a5fa;
+  --theme-shade-5: #3b82f6;
+  --theme-shade-6: #4390c7;
+  --theme-shade-7: #0c65a6;
+  --theme-shade-8: #2b4ab1;
+  --theme-shade-9: #1e3a8a;
   --txtPrimary: #f6eed6;
-  --bgPrimary: var(--theme900);
 
+  --bgPrimary: var(--theme-shade-9);
   --txtSecondary: #c34b3a;
   --bgSecondary: #f6eed6;
 
